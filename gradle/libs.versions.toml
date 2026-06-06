@@ -28,6 +28,7 @@ kotlinx-datetime = "0.8.0"
 kotlinStdlib = "2.4.0"
 runner = "1.7.0"
 core = "1.7.0"
+detekt = "2.0.0-alpha.3"
 
 
 [libraries]
@@ -89,4 +90,5 @@ jetbrains-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serializati
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 androidx-room = { id = "androidx.room", version.ref = "room" }
 android-lint = { id = "com.android.lint", version.ref = "agp" }
+detekt = { id = "dev.detekt", version.ref = "detekt" }
 
